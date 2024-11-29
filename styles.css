@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -10,7 +10,7 @@ body {
   transition: background 0.3s ease;
 }
 
-/* Header */
+
 header {
   background: #1a1a2e;
   text-align: center;
@@ -27,7 +27,7 @@ header h1 {
   text-transform: uppercase;
 }
 
-/* Navigation styling */
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -51,7 +51,7 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
-/* Section styling */
+
 section {
   padding: 80px 20px;
   text-align: center;
@@ -60,7 +60,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* Add background transition */
+
 section:hover {
   background: rgba(0, 0, 0, 0.7);
 }
@@ -84,7 +84,7 @@ section h2::after {
   margin: 10px auto 0;
 }
 
-/* About Section */
+
 .about-section {
   background: #16213e;
   border-radius: 15px;
@@ -109,7 +109,7 @@ section h2::after {
   color: #bbb;
 }
 
-/* Services Section */
+
 #services {
   display: flex;
   justify-content: space-around;
@@ -149,7 +149,7 @@ section h2::after {
   color: #bbb;
 }
 
-/* Portfolio Section */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -198,7 +198,7 @@ section h2::after {
   opacity: 1;
 }
 
-/* Social Links */
+
 #social {
   text-align: center;
   margin: 40px 0;
@@ -217,7 +217,7 @@ section h2::after {
   transform: scale(1.1);
 }
 
-/* Footer */
+
 footer {
   background: #1a1a2e;
   text-align: center;
@@ -237,7 +237,7 @@ footer .footer-text {
   margin-top: 10px;
 }
 
-/* Back to Top Button */
+
 #back-to-top {
   position: fixed;
   bottom: 20px;
@@ -266,9 +266,9 @@ body.scrolled #back-to-top {
   color: #00d4ff;
 }
 
-/* Additional Styling for Service Section */
+
 #services {
-  justify-content: center; /* Center the services section */
+  justify-content: center; 
   margin: 60px 0;
 }
 
@@ -283,7 +283,7 @@ body.scrolled #back-to-top {
   color: #00d4ff;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
